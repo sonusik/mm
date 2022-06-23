@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link href="https://allfont.ru/allfont.css?fonts=ds-standartcyr" rel="stylesheet" type="text/css" />
+        <title>
+            Библиотека
+        </title>
+    </head>
+    <body class="back" >
+        
+        <style>
+            .menu {
+                background-color: rgb(240, 198, 15);
+                overflow: hidden;
+                padding: 0px;
+
+            }
+            .menu a {
+                float: left;
+                color: rgb(55, 75, 45);
+                text-align: center;
+                padding-top: 20px;
+                padding-left: 60px;
+                text-decoration: none;
+                font-size: 30px;
+                font-family: 'Segoe UI';
+            }
+            .menu a:hover {
+                color: rgb(163, 138, 92);
+            }
+            #logo
+            {
+                left: 1%;
+                width: 100px;
+                height:75px ;
+            }
+            #down
+            {
+                font: inherit;
+                letter-spacing: inherit;
+                word-spacing: inherit;  
+                height: 50px;
+                width: 180px;
+                border-radius: 50px;
+                background-color: rgb(255, 187, 61);
+                border-color: rgb(146, 100, 16);
+                font-family:  'Segoe UI';
+            }
+            #text2{
+               font-size: 80px;
+               color: rgb(0, 0, 0);
+            }
+            #text3{
+                text-align: center;
+                font-size: 20px;
+            }
+            .back{
+                background: rgb(240, 198, 15);
+            }
+                div#text {
+                position: relative;
+                }
+                .text {
+                position: absolute;
+                top: 30%;
+                left: 65px;
+                right: 50px;
+                color: rgb(0, 0, 0);
+                width: 700px;
+                padding: 40px;
+                text-align: center;
+                font: bold 70px/70px Helvetica, Sans-Serif;
+                margin-left: 10px;
+                
+
+                }
+                #imgee{
+                   padding-right: 10px;
+                    width: 500px;
+                    height: 1000px;
+                    margin-left: 1000px;
+                }
+                #bk{
+                    color: black;
+                    font-family: 'Segoe UI';
+                }
+                #bk2{
+                    text-align: center;
+                    font-size: 20px;
+                    color: black;
+                    font-family: 'Segoe UI';
+                }
+                #bkk{
+                    top: 20%;
+                    text-align: center;
+                    font-size: 20px;
+                    color: black;
+                    font-family: 'Segoe UI';
+                }
+                #textit{
+                    font-family: 'Segoe UI';
+                }
+                .search{
+                    -webkit-text-size-adjust: 100%;
+                    font-family: inherit;
+                    line-height: 1.15;
+                    margin: 0;
+                    overflow: visible;
+                    padding: 4px 10px;
+                    border: 0;
+                    font-size: 16px;
+                    position: absolute;
+                    height: 25px;
+                    top: 160px;
+                    background: #FFFFFF;
+                    border-radius: 7px;
+                    left: 60px;
+                    width: 500px;
+                }
+            </style>
+            <div class="menu">
+               
+               <p ALIGN="center">
+                <a href="libra.html" type="submit" id="bk"><b>LIBRARY</b></a>
+                <button type="button" style="border: 0px; margin-left: -70%; margin-top: 1.5%;" class="btn btn-outline-dark">Новости</button>
+                <button type="button" style="border: 0px; margin-top: 1.5%;"  class="btn btn-outline-dark">Библиотека</button>
+             </div>
+             <div  style="margin-left: 1200px; padding: 10px 5px 5px 150px;">
+                <form action="vhod.html">
+                   <a href="vhod.html"><link rel="import" > </a> 
+                <button type="submit" style="border-radius:20px ; margin-top: -25%;" class="btn btn-light">ВОЙТИ</button>
+            </form>
+            <form action="reg.html">
+                <button type="submit" style="border-radius:20px ; margin-top: -33.5%; margin-left: 80px;" class="btn btn-dark">РЕГИСТРАЦИЯ</button>
+            </form>
+            </div>
+                
+            </p>
+            </div>
+           
+            <div id="text" >
+                <img id="imgee" style="width:1000px; height:1000px; margin-left: 600px; " src="free-icon-circle-5716694.png" alt="картинка">
+                
+                <div style="margin-top:-200px; font-size:70px;" class="text">
+                     <b>Электронная<br>
+                    Библиотека<br></b>
+                    <div class="jj">
+                    <h2 id="textit">Подберём для вас интересную книгу.</h2>
+                    
+                    <form action="libra.html">        <!--контейнером для формы поиска-->
+                        <input type="text" name="text" class="search" placeholder="Поиск" style="margin-top:30% ; width:500px; height:50px; margin-left: 60px;"> <!--поле поиска-->
+                        <button type="submit" style="background: black; width:60px; height:50px; margin-top: 30%;" name="submit" class="search" value="Search"><img class="search" style=" background: black; margin-top: -255%; margin-left: -55px; width:50px ; height:40px;" src="4194718.png" alt="Poisk"></button> <!--кнопка отправки данных на сервер-->
+
+                    </form>
+                    </div>
+                 </div>
+            </div>  
+                </div> 
+                
+    </body>
+</html>
